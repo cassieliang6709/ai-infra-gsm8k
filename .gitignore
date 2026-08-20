@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+output/
+# evals/ is intentionally NOT ignored: run records are the point of this repo.

@@ -1,0 +1,27 @@
+{
+  "generated_at_utc": "2026-08-20T03:23:34.768224+00:00",
+  "manifest_version": "2026-08-20",
+  "manifest": "evaluation/official/benchmark_manifest.yaml",
+  "run_metadata": {
+    "seed": 42,
+    "hardware": "Darwin|25.5.0|arm64|arm|cpu=8",
+    "commit": "154f1dfae65ac484ac99ff1e3807d182826db5d8"
+  },
+  "results": [
+    {
+      "task": "financebench",
+      "status": "completed",
+      "timestamp_utc": "2026-08-20T00:00:00Z",
+      "elapsed_seconds": 0.0,
+      "summary": {
+        "metadata": {
+          "dataset": "x"
+        }
+      },
+      "config": {
+        "k": 10
+      },
+      "error": null
+    }
+  ]
+}
