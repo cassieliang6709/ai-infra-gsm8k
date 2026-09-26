@@ -1,0 +1,32 @@
+
+=== /root/autodl-tmp/models/Qwen2.5-0.5B  tie_word_embeddings=True
+ordinary tokens: median embed norm 0.461 | median lm_head norm 0.461
+<|im_end|>      id=151645  embed_norm=0.301  lm_head_norm=0.301
+<|im_start|>    id=151644  embed_norm=0.301  lm_head_norm=0.301
+<|endoftext|>   id=151643  embed_norm=0.599  lm_head_norm=0.599
+P(<|im_end|>) after answer: median 0.0000  min 0.0000  max 0.0000  (n=50)
+<|im_end|> median rank 141238 (1 = most likely next token)
+
+=== /root/autodl-tmp/output/sft-gsm8k/v0-20260926-183651/checkpoint-458-merged  tie_word_embeddings=True
+ordinary tokens: median embed norm 0.461 | median lm_head norm 0.461
+<|im_end|>      id=151645  embed_norm=0.301  lm_head_norm=0.301
+<|im_start|>    id=151644  embed_norm=0.301  lm_head_norm=0.301
+<|endoftext|>   id=151643  embed_norm=0.599  lm_head_norm=0.599
+P(<|im_end|>) after answer: median 0.0003  min 0.0003  max 0.0003  (n=50)
+<|im_end|> median rank 356 (1 = most likely next token)
+
+=== /root/autodl-tmp/output/sft-lora-mts/v0-20260926-122521/checkpoint-458-merged  tie_word_embeddings=False
+ordinary tokens: median embed norm 0.461 | median lm_head norm 0.462
+<|im_end|>      id=151645  embed_norm=0.302  lm_head_norm=0.306
+<|im_start|>    id=151644  embed_norm=0.302  lm_head_norm=0.307
+<|endoftext|>   id=151643  embed_norm=0.599  lm_head_norm=0.597
+P(<|im_end|>) after answer: median 0.9998  min 0.9997  max 0.9999  (n=50)
+<|im_end|> median rank 1 (1 = most likely next token)
+
+=== /root/autodl-tmp/output/sft-full-gsm8k/v0-20260926-122149/checkpoint-458  tie_word_embeddings=True
+ordinary tokens: median embed norm 0.461 | median lm_head norm 0.461
+<|im_end|>      id=151645  embed_norm=0.302  lm_head_norm=0.302
+<|im_start|>    id=151644  embed_norm=0.301  lm_head_norm=0.301
+<|endoftext|>   id=151643  embed_norm=0.599  lm_head_norm=0.599
+P(<|im_end|>) after answer: median 0.1298  min 0.0874  max 0.1431  (n=50)
+<|im_end|> median rank 1 (1 = most likely next token)

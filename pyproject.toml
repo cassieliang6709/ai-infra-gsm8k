@@ -1,13 +1,11 @@
 [project]
-name = "ai-infra-gsm8k"
-version = "0.1.0"
-description = "GSM8K baseline / LoRA / GRPO reproduction scaffolding"
+name = "gsm8k-post-training"
+version = "0.2.0"
+description = "SFT, CoT distillation and GRPO on Qwen2.5-0.5B for GSM8K, with raw evaluation outputs"
 requires-python = ">=3.11"
-dependencies = ["pyyaml"]
+# GPU-side dependencies (ms-swift, verl, vLLM, lm-eval) are installed by scripts/setup.sh
+# and scripts/s0_install_verl.sh; the local tooling only needs these.
+dependencies = ["datasets", "pandas", "pyarrow", "transformers", "torch"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
-pythonpath = ["."]
-
-[tool.ruff]
-line-length = 100
